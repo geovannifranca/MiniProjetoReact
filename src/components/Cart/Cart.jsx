@@ -16,7 +16,7 @@ function Cart() {
       </div>
   
       <div className="cart_resume">
-        {formatCurrency(totalPrice, 'BRl')}
+        {`Valor total: ${formatCurrency(totalPrice, 'BRl')}`}
       </div>
     </section>
   );
